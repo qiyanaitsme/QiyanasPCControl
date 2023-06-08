@@ -34,8 +34,8 @@ def start(message):
 
     bot.send_chat_action(chat_id, 'typing')
     time.sleep(1)
-    bot.send_message(chat_id, "Можете посетить мой профиль на форуме. Тут всегда актуальная версия бота.:")
-    bot.send_message(chat_id, "https://zelenka.guru/sataraitsme/")
+    bot.send_message(chat_id, "Можете посетить мой профиль на GITHUB. Тут всегда актуальная версия бота.:")
+    bot.send_message(chat_id, "https://github.com/sataraitsme/satarapccontrol")
 
     bot.send_chat_action(chat_id, 'typing')
     time.sleep(1)
